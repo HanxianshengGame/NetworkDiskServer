@@ -1,0 +1,1000 @@
+ 1023  ./FileClient 172.17.47.226 2000
+ 1024  ll
+ 1025  ls
+ 1026  rm trans_file 
+ 1027  ./FileClient 172.17.47.226 2000
+ 1028  ll
+ 1029  rm trans_file 
+ 1030  ls
+ 1031  ./FileClient 172.17.47.226 2000
+ 1032  rm trans_file 
+ 1033  ./FileClient 172.17.47.226 2000
+ 1034  ll
+ 1035  kill -n
+ 1036  kill -10
+ 1037  kill -l
+ 1038  ls
+ 1039  cd FileServer/
+ 1040  ls
+ 1041  cd ThreadPool_1.0/
+ 1042  ls
+ 1043  cd source/
+ 1044  ls
+ 1045  make
+ 1046  clear
+ 1047  ls
+ 1048  ./ThreadPool 172.17.47.226 2000 5
+ 1049  ./ThreadPool 172.17.47.226 2000 5
+ 1050  ll
+ 1051  ./ThreadPool 172.17.47.226 2000 5
+ 1052  make
+ 1053  ./ThreadPool 172.17.47.226 2000 5
+ 1054  make
+ 1055  ./ThreadPool 172.17.47.226 2000 5
+ 1056  make
+ 1057  ./ThreadPool 172.17.47.226 2000 5
+ 1058  make
+ 1059  ./ThreadPool 172.17.47.226 2000 5
+ 1060  cd FileServer/
+ 1061  ls
+ 1062  cd ThreadPool_1.0/
+ 1063  lls
+ 1064  ls
+ 1065  cd source/
+ 1066  ls
+ 1067  ll
+ 1068  vim main.c
+ 1069  cd ~
+ 1070  ls
+ 1071  cd /
+ 1072  ls
+ 1073  cd ~
+ 1074  ls
+ 1075  [handling@TengFei ~/FileServer/ThreadPool_1.0\ []$ cd include/
+ 1076  [handling@TengFei ~/FileServer/ThreadPool_1.0/include\ []$ vim ThreadPool.h
+ 1077  [handling@TengFei ~/FileServer/ThreadPool_1.0/include\ []$ vim TaskQueue.h
+ 1078  [handling@TengFei ~/FileServer/ThreadPool_1.0/include\ []$ ls
+ 1079  s
+ 1080  [handling@TengFei ~/FileServer/ThreadPool_1.0\ []$ cd include/
+ 1081  [handling@TengFei ~/FileServer/ThreadPool_1.0/include\ []$ vim ThreadPool.h
+ 1082  [handling@TengFei ~/FileServer/ThreadPool_1.0/include\ []$ vim TaskQueue.h
+ 1083  [handling@TengFei ~/FileServer/ThreadPool_1.0/include\ []$ ls
+ 1084  sudo dpkg -i mysql-apt-config_0.8.10-1_all.deb
+ 1085  ls
+ 1086  sudo dpkg -i mysql-apt-config_0.8.12-1_all.deb 
+ 1087  mysql
+ 1088  sudo apt-get update
+ 1089  sudo apt-get install mysql-server
+ 1090  sudo apt-get install libmysqlclient-dev
+ 1091  sudo cat /etc/mysql/debian.cnf
+ 1092  mysql
+ 1093  sudo mysql
+ 1094  sudo cat /etc/
+ 1095  cd /etc
+ 1096  ls
+ 1097  grep mysql
+ 1098  tree 
+ 1099  tree |grep mysql
+ 1100  sudo cat /etc/mysql/mysql.cnf
+ 1101  sudo vim /etc/mysql/mysql.cnf
+ 1102  sudo cat /etc/mysql/debian.cnf
+ 1103  ls
+ 1104  ls |grep mysq
+ 1105  cd mysql
+ 1106  ls
+ 1107  sudo mysql -u root -p
+ 1108  use mysql;
+ 1109  sudo mysql -u root -p
+ 1110  ls
+ 1111  mysql -u handling -p
+ 1112  mysql -u root -p
+ 1113  ls
+ 1114  mysql -u root -p
+ 1115  sudo mysql -u root -p
+ 1116  sudo mysql -u root -p
+ 1117  Welcome to Ubuntu 18.04.5 LTS (GNU/Linux 4.15.0-106-generic x86_64)
+ 1118  dpkg --list|grep mysql
+ 1119  sudo apt-get remove mysql-common
+ 1120  sudo apt-get autoremove --purge mysql-server-5.7
+ 1121  dpkg -l|grep ^rc|awk '{print$2}'|sudo xargs dpkg -P
+ 1122  dpkg --list|grep mysql
+ 1123  sudo apt-get autoremove --purge mysql-apt-config
+ 1124  ls
+ 1125  sudo dpkg -i mysql-apt-config_0.8.10-1_all.deb
+ 1126  sudo dpkg -i mysql-apt-config_0.8.12-1_all.deb 
+ 1127  sudo apt-get install mysql-server
+ 1128  sudo mysql -u root -p
+ 1129  sudo cat /etc/mysql/debian.cnf
+ 1130  ls
+ 1131  kill -l
+ 1132  cd FileServer/
+ 1133  ls
+ 1134  cd ThreadPool_1.0/
+ 1135  ls
+ 1136  cd source/
+ 1137  make
+ 1138  ./ThreadPool 172.17.47.226 2000 5
+ 1139  make
+ 1140  ./ThreadPool 172.17.47.226 2000 5
+ 1141  ls
+ 1142  cd FileServer/
+ 1143  ls
+ 1144  cd ThreadPool_1.0/
+ 1145  ls
+ 1146  cd source/
+ 1147  ls
+ 1148  vim main.c
+ 1149  mv trans_file ../
+ 1150  ls
+ 1151  cd ..
+ 1152  ls
+ 1153  mv trans_file  ..
+ 1154  ls
+ 1155  tar cfvz homework include/ source/ 
+ 1156  ls
+ 1157  rm homework 
+ 1158  tar cfvz homework ./*
+ 1159  ls
+ 1160  tar cfvz homework.tar.gz ./*
+ 1161  ls
+ 1162  cd FileServer/
+ 1163  ls
+ 1164  cd FileClient/
+ 1165  LS
+ 1166  ls
+ 1167  rm trans_file 
+ 1168  ./FileClient 172.17.47.226 2000 5
+ 1169  ./FileClient 172.17.47.226 2000 
+ 1170  rm trans_file 
+ 1171  ls
+ 1172  ./FileClient 172.17.47.226 2000 
+ 1173  ps -elLf|grep Thread
+ 1174  ps -elLf
+ 1175  kill 10 12028
+ 1176  kill -10 12028
+ 1177  ps -elLf|grep Thread
+ 1178  kill -10 12095
+ 1179  ps -elLf|grep Thread
+ 1180  kill -10 12130
+ 1181  ps -elLf|grep Thread
+ 1182  kill -10 12216
+ 1183  ls
+ 1184  clear
+ 1185  ls
+ 1186  cd homework/
+ 1187  ls
+ 1188  mysql
+ 1189  mysql -u root - p
+ 1190  sudo mysql -u root - p
+ 1191  ls
+ 1192  cd ..
+ 1193  cd `
+ 1194  cd /
+ 1195  ls
+ 1196  sudo mysql -u root -p
+ 1197  sudo mysql -u root -p 
+ 1198  sudo mysql -u root -q
+ 1199  cd /
+ 1200  ls
+ 1201  sudo mysql -u root -p
+ 1202  ls
+ 1203  cd FileServer/
+ 1204  ls
+ 1205  cd ThreadPool_1.0/
+ 1206  ls
+ 1207  rm '35期Linuxday23线程池作业 .txt' 
+ 1208  cd include/
+ 1209  ls
+ 1210  vim DataBase.h
+ 1211  ls
+ 1212  sudo mysql -u root -p
+ 1213  ls
+ 1214  rm -rf Day*
+ 1215  ls
+ 1216  mkdir NetWorkServer
+ 1217  ls
+ 1218  cd FileServer/
+ 1219  ls
+ 1220  cp FileClient/ ThreadPool_1.0/ ../NetWorkServer/
+ 1221  cp FileClient/ ThreadPool_1.0/ ../NetWorkServer/ -r
+ 1222  cd ..
+ 1223  ls
+ 1224  cd NetWorkServer/
+ 1225  LS
+ 1226  ls
+ 1227  cd ThreadPool_1.0/
+ 1228  ls
+ 1229  cd ..
+ 1230  ls
+ 1231  mv ThreadPool_1.0/ Server
+ 1232  ls
+ 1233  mv FileClient/ Client
+ 1234  ls
+ 1235  cd Server/
+ 1236  ls
+ 1237  rm homework.tar.gz 
+ 1238  ls
+ 1239  cd source/
+ 1240  ls
+ 1241  vim MessageProtocol.c 
+ 1242  ls
+ 1243  vim main.c
+ 1244  sudo apt install net-tools
+ 1245  ifconfig
+ 1246  sudo apt update
+ 1247  ping www.baidu.com
+ 1248  ps -elf|grep sshd
+ 1249  password root
+ 1250  passwd root
+ 1251  sudo passwd root
+ 1252  sudo su root
+ 1253  ls
+ 1254  cat /etc/shaow
+ 1255  cat /etc/shadow
+ 1256  sudo cat /etc/shadow
+ 1257  useradd 88888
+ 1258  sudo useadd 8888
+ 1259  sudo useadd 88888
+ 1260  sudo useradd 88888
+ 1261  sudo userdel 88888
+ 1262  sudo useradd -m 88888 -s /bin/bash
+ 1263  sudo passwd 88888
+ 1264  ls
+ 1265  cat /etc/shadow
+ 1266  sudo cat /etc/shadow
+ 1267  cd /home/
+ 1268  ls
+ 1269  ll
+ 1270  mount
+ 1271  tree
+ 1272  ls
+ 1273  umask
+ 1274  umask 0001
+ 1275  ls
+ 1276  umask
+ 1277  umask 0002
+ 1278  find /usr/include/ -uid 2
+ 1279  find /usr/include/ -uid 100
+ 1280  find /usr/include/ -uid *
+ 1281  find /usr/include/ -uid 2
+ 1282  find /usr/include/ -uid 1
+ 1283  ll
+ 1284  find / -uid 5
+ 1285  find / -uid 13
+ 1286  find / -type d
+ 1287  find /usr/include/ -type d
+ 1288  ll
+ 1289  cd handling/
+ 1290  ls
+ 1291  ll
+ 1292  ls
+ 1293  cd NetWorkServer/
+ 1294  ls
+ 1295  mkdir Server/
+ 1296  mkdir Server_1.0
+ 1297  ls
+ 1298  cd Server_1.0
+ 1299  LS
+ 1300  mkdir include
+ 1301  ls
+ 1302  mkdir source
+ 1303  ls
+ 1304  cd source/
+ 1305  ls
+ 1306  vim makefile
+ 1307  make
+ 1308  ls
+ 1309  vim main.c
+ 1310  make
+ 1311  ls
+ 1312  vim main.c
+ 1313  ls
+ 1314  vim makefile
+ 1315  ls
+ 1316  make rebuild
+ 1317  ls
+ 1318  vim makefile
+ 1319  make
+ 1320  vim main.c
+ 1321  gcc main.o -o main
+ 1322  vim makefile
+ 1323  make
+ 1324  ls
+ 1325  ./Server 
+ 1326  make rebuild
+ 1327  ls
+ 1328  rm main.o
+ 1329  ls
+ 1330  vim makefile 
+ 1331  make
+ 1332  ls
+ 1333  vim main.c
+ 1334  mak
+ 1335  make
+ 1336  cd ..
+ 1337  ls
+ 1338  cd ..
+ 1339  ls
+ 1340  cd Server
+ 1341  ls
+ 1342  cd source/
+ 1343  ls
+ 1344  vim ChildThreadWork.c 
+ 1345  ls
+ 1346  find /usr/include/ -name stdio.h|xargs ll
+ 1347  find /usr/include/ -name *.h|xargs ll
+ 1348  find /usr/include/ -name *.h
+ 1349  find /usr/include/ -name *.h|xargs ls -l
+ 1350  find /usr/include/ -name *.h|xargs ll
+ 1351  find /usr/include/ -name *.h|xargs ls -l
+ 1352  df -h
+ 1353  df 
+ 1354  ls
+ 1355  du -h /
+ 1356  du -h --max-depth=1
+ 1357  file FileServer/
+ 1358  ls
+ 1359  file NetWorkServer
+ 1360  cd NetWorkServer/
+ 1361  ls
+ 1362  cd Server/
+ 1363  ls
+ 1364  cd source/
+ 1365  ls
+ 1366  head main.c
+ 1367  head -20 main.c
+ 1368  cat main.c|grep -nE "main"
+ 1369  cat main.c|grep -nE "main"|xargs head -10
+ 1370  alias
+ 1371  route
+ 1372  ls
+ 1373  ls -ial
+ 1374  ln ThreadPool.c 123
+ 1375  ls
+ 1376  ll
+ 1377  cat 123
+ 1378  rm 123
+ 1379  ls
+ 1380  ps
+ 1381  ps -elf
+ 1382  top
+ 1383  nice
+ 1384  ls
+ 1385  ipcs
+ 1386  ipcs -m 11
+ 1387  ls
+ 1388  kill -l
+ 1389  cd ~/NetWorkServer/Server/source
+ 1390  ls
+ 1391  vim main.c
+ 1392  ls
+ 1393  man 2 recv
+ 1394  ls
+ 1395  cd NetWorkServer/ls
+ 1396  cd NetWorkServer
+ 1397  ls
+ 1398  cd Client/ls
+ 1399  cd Client
+ 1400  ls
+ 1401  cd source/
+ 1402  ls
+ 1403  make
+ 1404  ifconfig
+ 1405  ls
+ 1406  ./Client 172.17.47.226 2000
+ 1407  clear
+ 1408  ./Client 172.17.47.226 2000
+ 1409  ls
+ 1410  clear
+ 1411  ls
+ 1412  clear
+ 1413  ls
+ 1414  cd ..
+ 1415  ls
+ 1416  cd ..
+ 1417  ls
+ 1418  cd Server
+ 1419  ls
+ 1420  mv warehouse/525907/trans_file ../Client/source/
+ 1421  ls
+ 1422  cd ..
+ 1423  cd Client/
+ 1424  ls
+ 1425  cd source/
+ 1426  ls
+ 1427  vim trans_file 
+ 1428  ls
+ 1429  vim MessageProtocol.c 
+ 1430  make
+ 1431  cd NetWorkServer/Server
+ 1432  ls
+ 1433  cd source/
+ 1434  cd ..
+ 1435  ls
+ 1436  mkdir warehouse
+ 1437  ls
+ 1438  cd warehouse
+ 1439  ls
+ 1440  mkdir 525907
+ 1441  ls
+ 1442  man 2 open
+ 1443  ls
+ 1444  cd 525907/
+ 1445  ls
+ 1446  cd ..
+ 1447  ls
+ 1448  cd ..
+ 1449  ls
+ 1450  cd Server
+ 1451  ls
+ 1452  cd source/
+ 1453  ls
+ 1454  cd ..
+ 1455  ls
+ 1456  cd ..
+ 1457  ls
+ 1458  cd cl
+ 1459  cd Client/
+ 1460  ls
+ 1461  mv trans_file ..
+ 1462  ls
+ 1463  cd ..
+ 1464  ls
+ 1465  mv trans_file Server/warehouse/525907/
+ 1466  ls
+ 1467  cd Server
+ 1468  cd source/
+ 1469  ls
+ 1470  make
+ 1471  ./Server 172.17.47.226 2000 5
+ 1472  clear
+ 1473  ./Server 172.17.47.226 2000 5
+ 1474  ls
+ 1475  cd ..
+ 1476  ls
+ 1477  cd warehouse/525907/
+ 1478  ls
+ 1479  make
+ 1480  cd ..
+ 1481  cd source/
+ 1482  ls
+ 1483  make
+ 1484  ./Server 172.17.47.226 2000 5
+ 1485  cd ..
+ 1486  ls
+ 1487  cd Server
+ 1488  ls
+ 1489  cd  warehouse/525907/
+ 1490  ls
+ 1491  vim trans_file 
+ 1492  rm trans_file 
+ 1493  ll
+ 1494  rm 'trans_file' 
+ 1495  rm 'trans_file'$'\n' 
+ 1496  ls
+ 1497  cd ~/NetWorkServer/Server
+ 1498  cd source/
+ 1499  ls
+ 1500  make
+ 1501  clear
+ 1502  ./Server 172.17.47.226 2000 5
+ 1503  make
+ 1504  ./Server 172.17.47.226 2000 5
+ 1505  ./Server 172.17.47.226 2000 5
+ 1506  clear
+ 1507  ./Server 172.17.47.226 2000 5
+ 1508  cd ~/NetWorkServer/Client/source\
+ 1509  cd ~/NetWorkServer/Client/source
+ 1510  ls
+ 1511  make
+ 1512  ./Client 172.17.47.226 2000
+ 1513  ll
+ 1514  make
+ 1515  ./Client 172.17.47.226 2000
+ 1516  make
+ 1517  ./Client 172.17.47.226 2000
+ 1518  clear
+ 1519  make
+ 1520  ./Client 172.17.47.226 2000
+ 1521  ll
+ 1522  vim main.c 
+ 1523  cd NetWorkServer/
+ 1524  ks
+ 1525  ls
+ 1526  cd Server
+ 1527  ls
+ 1528  cd source/
+ 1529  ls
+ 1530  make
+ 1531  ./Server 172.17.47.226 2000 5
+ 1532  vim main.c 
+ 1533  ls
+ 1534  cd NetWorkServer/
+ 1535  ls
+ 1536  cd Server
+ 1537  ls
+ 1538  cd source/
+ 1539  ls
+ 1540  vim MessageProtocol.c 
+ 1541  make
+ 1542  make clean
+ 1543  ls
+ 1544  vim makefile
+ 1545  make
+ 1546  ./Server 172.17.47.226 2000 5
+ 1547  cd ..
+ 1548  ls
+ 1549  cd ..
+ 1550  ls
+ 1551  cd Client/
+ 1552  ls
+ 1553  vim FileClient.C
+ 1554  vim FileClient.c
+ 1555  ls
+ 1556  vim FileClient.c
+ 1557  ls
+ 1558  cp ../Server/include/Epoll.h .
+ 1559  ls
+ 1560  cp ../Server/include/MessageProtocol.h .
+ 1561  cp ../Server/source/MessageProtocol.c .
+ 1562  cp ../Server/source/Epoll.c .
+ 1563  LS
+ 1564  ls
+ 1565  vim main.c
+ 1566  ls
+ 1567  make clean
+ 1568  ls
+ 1569  vim makefile
+ 1570  make
+ 1571  ls
+ 1572  make clean 
+ 1573  ls
+ 1574  mv FileClient.c main.c
+ 1575  vim main.c
+ 1576  ls
+ 1577  cd ..
+ 1578  ls
+ 1579  cd Client/
+ 1580  ls
+ 1581  mkdir include
+ 1582  mkdir source
+ 1583  ls
+ 1584  mv *.h source/
+ 1585  ls
+ 1586  mv *.c source/
+ 1587  ls
+ 1588  mv makefile source/
+ 1589  cd source/
+ 1590  ls
+ 1591  vim main.c
+ 1592  ls
+ 1593  cd ..
+ 1594  ls
+ 1595  cd include/
+ 1596  ls
+ 1597  cd ..
+ 1598  ls
+ 1599  cd source/
+ 1600  ls
+ 1601  mv *.h ../include/
+ 1602  ls
+ 1603  vim MessageProtocol.c 
+ 1604  ls
+ 1605  vim main.c
+ 1606  ls
+ 1607  vim main.c 
+ 1608  make
+ 1609  ./Client 172.17.47.226 2000
+ 1610  ./Client 172.17.47.226 2000clear
+ 1611  clear
+ 1612  ./Client 172.17.47.226 2000
+ 1613  s
+ 1614  ./Client 172.17.47.226 2000
+ 1615  vim ClientFunc.c 
+ 1616  ls
+ 1617  cd NetWorkServer/
+ 1618  ls
+ 1619  cd Server
+ 1620  LS
+ 1621  ls
+ 1622  cd source/
+ 1623  make
+ 1624  ./Server 172.17.47.226 2000 5
+ 1625  ls
+ 1626  make
+ 1627  ./Server 172.17.47.226 2000 5
+ 1628  clear
+ 1629  ./Server 172.17.47.226 2000 5
+ 1630  make
+ 1631  ./Server 172.17.47.226 2000 5
+ 1632  make
+ 1633  ./Server 172.17.47.226 2000 5
+ 1634  ls
+ 1635  make
+ 1636  ./Server 172.17.47.226 2000 5
+ 1637  make
+ 1638  ./Server 172.17.47.226 2000 5
+ 1639  cd 
+ 1640  ls
+ 1641  cd NetWorkServer/
+ 1642  ls
+ 1643  cd Client/
+ 1644  ls
+ 1645  cd source/
+ 1646  ls
+ 1647  vim ClientFunc.c
+ 1648  vim main.c
+ 1649  cd  ~/NetWorkServer/Client/source
+ 1650  ll
+ 1651  cd ~/NetWorkServer/
+ 1652  ls
+ 1653  cd Server
+ 1654  ls
+ 1655  cd warehouse/
+ 1656  ll
+ 1657  cd 525907/
+ 1658  ll
+ 1659  cd trans_dir/
+ 1660  ll
+ 1661  clear
+ 1662  ls
+ 1663  ll
+ 1664  cd 
+ 1665  cd -
+ 1666  ls
+ 1667  cd ..
+ 1668  rm -rf *
+ 1669  ls
+ 1670  ll[
+ 1671  rm -rf *
+ 1672  ls
+ 1673  ll
+ 1674  cd trans_dir/
+ 1675  ll
+ 1676  clear
+ 1677  ls
+ 1678  cd NetWorkServer/
+ 1679  ls
+ 1680  cd Client/
+ 1681  ls
+ 1682  cd source/
+ 1683  ls
+ 1684  make
+ 1685  ./Client 172.17.47.226 2000
+ 1686  ls
+ 1687  mkdir trans_dir
+ 1688  cp trans_file trans_dir/
+ 1689  clear
+ 1690  ./Client 172.17.47.226 2000
+ 1691  make
+ 1692  clear
+ 1693  ./Client 172.17.47.226 2000
+ 1694  make
+ 1695  ./Client 172.17.47.226 2000
+ 1696  make
+ 1697  ./Client 172.17.47.226 2000
+ 1698  make
+ 1699  ./Client 172.17.47.226 2000
+ 1700  ls
+ 1701  cd NetWorkServer/
+ 1702  ls
+ 1703  cd Server
+ 1704  ls
+ 1705  cd source/
+ 1706  ls
+ 1707  vim ChildThreadWork.c 
+ 1708  clear
+ 1709  vim ChildThreadWork.c 
+ 1710  cd ~/NetWorkServer/Client/source
+ 1711  ls
+ 1712  make
+ 1713  ls
+ 1714  cd trans_dir/
+ 1715  ls
+ 1716  touch main.c
+ 1717  cat hello>main.c
+ 1718  cat hello >main.c
+ 1719  cat "hello">main.c
+ 1720  cat
+ 1721  cat>main.c
+ 1722  ll
+ 1723  mkdir dir
+ 1724  cd dir
+ 1725  vim main
+ 1726  cd ..
+ 1727  ls
+ 1728  cd source/
+ 1729  ls
+ 1730  make
+ 1731  ./Client 172.17.47.226 2000
+ 1732  make
+ 1733  ./Client 172.17.47.226 2000
+ 1734  ls
+ 1735  ll
+ 1736  make
+ 1737  ./Client 172.17.47.226 2000
+ 1738  make
+ 1739  ./Client 172.17.47.226 2000
+ 1740  ls
+ 1741  ll
+ 1742  make
+ 1743  ./Client 172.17.47.226 2000
+ 1744  make
+ 1745  ./Client 172.17.47.226 2000
+ 1746  make
+ 1747  ./Client 172.17.47.226 2000
+ 1748  make
+ 1749  ./Client 172.17.47.226 2000
+ 1750  make
+ 1751  ./Client 172.17.47.226 2000
+ 1752  vim MessageProtocol.c 
+ 1753  vim ../include/MessageProtocol.h 
+ 1754  ./Client 172.17.47.226 2000
+ 1755  make
+ 1756  ./Client 172.17.47.226 2000
+ 1757  make
+ 1758  ./Client 172.17.47.226 2000
+ 1759  ls
+ 1760  vim 
+ 1761  ls
+ 1762  cd ~/NetWorkServer/Client/source
+ 1763  ls
+ 1764  vim main.c
+ 1765  vim ClientFunc.c 
+ 1766  ls
+ 1767  clear
+ 1768  vim main.c
+ 1769  cd ~/NetWorkServer/Server/warehouse/525907/trans_dir
+ 1770  ls
+ 1771  cd ..
+ 1772  rm -rf *
+ 1773  ;s
+ 1774  ls
+ 1775  ll
+ 1776  cd trans_dir/
+ 1777  ls
+ 1778  cd dir/
+ 1779  ls
+ 1780  ll
+ 1781  cd ..
+ 1782  ll
+ 1783  cd ..
+ 1784  ls
+ 1785  rm -rf*
+ 1786  rm -rf *
+ 1787  ls
+ 1788  ll
+ 1789  rm *
+ 1790  ls
+ 1791  ll
+ 1792  make
+ 1793  ll
+ 1794  cd trans_dir/
+ 1795  ll
+ 1796  cd di
+ 1797  cd ..
+ 1798  ls
+ 1799  ll
+ 1800  make
+ 1801  ls
+ 1802  rm 'trans_file'$'\n'
+ 1803  ll
+ 1804  make
+ 1805  ./Client 172.17.47.226 2000
+ 1806  cd  ~/NetWorkServer/Server/source
+ 1807  ls
+ 1808  make
+ 1809  ./Server 172.17.47.226 2000 5
+ 1810  ls
+ 1811  vim ChildThreadWork.c 
+ 1812  ls
+ 1813  make
+ 1814  ./Server 172.17.47.226 2000 5
+ 1815  make
+ 1816  ./Server 172.17.47.226 2000 5
+ 1817  make
+ 1818  ./Server 172.17.47.226 2000 5
+ 1819  make
+ 1820  ./Server 172.17.47.226 2000 5
+ 1821  make
+ 1822  ./Server 172.17.47.226 2000 5
+ 1823  make
+ 1824  ./Server 172.17.47.226 2000 5
+ 1825  make
+ 1826  ./Server 172.17.47.226 2000 5
+ 1827  maek
+ 1828  make
+ 1829  ./Server 172.17.47.226 2000 5
+ 1830  make
+ 1831  ./Server 172.17.47.226 2000 5
+ 1832  make
+ 1833  ./Server 172.17.47.226 2000 5
+ 1834  ls
+ 1835  make
+ 1836  ./Server 172.17.47.226 2000 5
+ 1837  make
+ 1838  ./Server 172.17.47.226 2000 5
+ 1839  ls
+ 1840  cd FileServer/
+ 1841  cd ..
+ 1842  cd NetWorkServer/
+ 1843  ls
+ 1844  cd Server
+ 1845  ls
+ 1846  cd source/
+ 1847  ls
+ 1848  make
+ 1849  vim ChildThreadWork.c 
+ 1850  ls
+ 1851  vim ChildThreadWork.c 
+ 1852  cd ~/NetWorkServer/Server/source
+ 1853  ls
+ 1854  vim ChildThreadWork.c 
+ 1855  make
+ 1856  ls
+ 1857  ls
+ 1858  cd ~/NetWorkServer/Client/source
+ 1859  ls
+ 1860  vim main.c
+ 1861  cd ~/NetWorkServer/Server/source
+ 1862  vim makefile
+ 1863  make
+ 1864  ls
+ 1865  make
+ 1866  ./Server 172.17.47.226 2000 5
+ 1867  make
+ 1868  ./Server 172.17.47.226 2000 5
+ 1869  make
+ 1870  ./Server 172.17.47.226 2000 5
+ 1871  make
+ 1872  mmake
+ 1873  make
+ 1874  ./Server 172.17.47.226 2000 5
+ 1875  ls
+ 1876  make
+ 1877  ./Server 172.17.47.226 2000 5
+ 1878  make
+ 1879  ./Server 172.17.47.226 2000 5
+ 1880  make
+ 1881  ./Server 172.17.47.226 2000 5
+ 1882  make
+ 1883  ./Server 172.17.47.226 2000 5
+ 1884  make
+ 1885  ./Server 172.17.47.226 2000 5
+ 1886  cd ~/NetWorkServer/Client/source
+ 1887  ls
+ 1888  make
+ 1889  ./Client 172.17.47.226 2000
+ 1890  make
+ 1891  ./Client 172.17.47.226 2000
+ 1892  make
+ 1893  ./Client 172.17.47.226 2000
+ 1894  make
+ 1895  ls
+ 1896  make
+ 1897  ./Client 172.17.47.226 2000
+ 1898  ls
+ 1899  md5sum main
+ 1900  vim main
+ 1901  rm main
+ 1902  ls
+ 1903  w
+ 1904  ls
+ 1905  make
+ 1906  ./Client 172.17.47.226 2000
+ 1907  make
+ 1908  ./Client 172.17.47.226 2000
+ 1909  ls
+ 1910  ll
+ 1911  md5sum gets_file
+ 1912  make
+ 1913  ./Server 172.17.47.226 2000 5
+ 1914  make
+ 1915  ./Server 172.17.47.226 2000 5
+ 1916  ./Client 172.17.47.226 2000
+ 1917  make
+ 1918  ./Client 172.17.47.226 2000
+ 1919  ls
+ 1920  ll
+ 1921  cd gets_dir/
+ 1922  ll
+ 1923  cd ..
+ 1924  ls
+ 1925  make
+ 1926  ./Client 172.17.47.226 2000
+ 1927  cd ~/NetWorkServer/Server/source
+ 1928  ls
+ 1929  cd ..
+ 1930  ls
+ 1931  cd warehouse/
+ 1932  ls
+ 1933  cd 525907/
+ 1934  ls
+ 1935  cd trans_dir/
+ 1936  ls
+ 1937  cd dir
+ 1938  ls
+ 1939  md5sum main
+ 1940  vim main
+ 1941  ll
+ 1942  cd ..
+ 1943  ls
+ 1944  cp trans_file gets_file
+ 1945  vim gets_file
+ 1946  ls
+ 1947  ll
+ 1948  md5sum gets_file 
+ 1949  ls
+ 1950  mkdir gets_dir
+ 1951  cd gets_dir/
+ 1952  vim abc.c
+ 1953  vim 000.c
+ 1954  mkdir 123
+ 1955  ls
+ 1956  cd 1
+ 1957  cd 123/
+ 1958  vim man.c
+ 1959  cd ..
+ 1960  ll
+ 1961  md5sum trans_dir/
+ 1962  cd gets_dir/
+ 1963  ll
+ 1964  ls
+ 1965  cd ~/NetWorkServer/Client/source/
+ 1966  ls
+ 1967  make
+ 1968  ls
+ 1969  cd NetWorkServer/
+ 1970  ls
+ 1971  cd Server
+ 1972  LS
+ 1973  ls
+ 1974  cd source/
+ 1975  ls
+ 1976  make
+ 1977  ls
+ 1978  cd ..
+ 1979  ls
+ 1980  cd include/
+ 1981  ls
+ 1982  cd ..
+ 1983  ls
+ 1984  cd source/
+ 1985  ls
+ 1986  vim ChildThreadWork.c 
+ 1987  ls
+ 1988  make
+ 1989  ./Server 172.17.47.226 2000 5
+ 1990  ls
+ 1991  cd NetWorkServer/
+ 1992  ls
+ 1993  rm Server_1.0/
+ 1994  rm Server_1.0/ -r
+ 1995  ls
+ 1996  cd ..
+ 1997  ls
+ 1998  cd NetWorkServer/
+ 1999  ls
+ 2000  cd Server/
+ 2001  ls
+ 2002  cd source/
+ 2003  ls
+ 2004  rm :q
+ 2005  ls
+ 2006  make
+ 2007  vim MyLog
+ 2008  make
+ 2009  rm MyLog 
+ 2010  cd ..
+ 2011  ls
+ 2012  cd include/
+ 2013  ls
+ 2014  vim MyLog.h
+ 2015  cd s
+ 2016  cd ../source/
+ 2017  ls
+ 2018  make
+ 2019  ls
+ 2020  make
+ 2021  history
+ 2022  history>newfile

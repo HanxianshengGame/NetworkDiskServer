@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="NetworkDiskServer" targetName="NetworkDiskServer" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21df49e8-830a-4c10-9da6-b8b6c5977023" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1hK9pSz29NaWn7hzW5pJvR6BBQN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RunManager">
+    <configuration name="NetworkDiskServer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NetworkDiskServer" TARGET_NAME="NetworkDiskServer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NetworkDiskServer" RUN_TARGET_NAME="NetworkDiskServer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21df49e8-830a-4c10-9da6-b8b6c5977023" name="Default Changelist" comment="" />
+      <created>1599749100303</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599749100303</updated>
+      <workItem from="1599749104573" duration="2107000" />
+      <workItem from="1599751320859" duration="116000" />
+      <workItem from="1599787090422" duration="3703000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="105" y="275" width="763" height="399" key="#Vim_Emulation" timestamp="1599750868338">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="105" y="275" width="763" height="399" key="#Vim_Emulation/0.0.1536.824@0.0.1536.824" timestamp="1599750868338" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599749403733">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1599749403733" />
+    <state width="746" height="210" key="GridCell.Tab.0.bottom" timestamp="1599749436479">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599749436479" />
+    <state width="746" height="210" key="GridCell.Tab.0.center" timestamp="1599749436478">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599749436478" />
+    <state width="746" height="210" key="GridCell.Tab.0.left" timestamp="1599749436478">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599749436478" />
+    <state width="746" height="210" key="GridCell.Tab.0.right" timestamp="1599749436479">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599749436479" />
+    <state x="110" y="78" key="SettingsEditor" timestamp="1599803955147">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="110" y="78" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599803955147" />
+    <state x="647" y="143" key="ftp.server.browser" timestamp="1599749168541">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="647" y="143" key="ftp.server.browser/0.0.1536.824@0.0.1536.824" timestamp="1599749168541" />
+  </component>
+</project>
